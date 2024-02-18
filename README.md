@@ -17,6 +17,8 @@ Our experimental process was conducted in 4 steps: summarizing description featu
 ### The results of the experiment with summarized descriptions and weighting.
 ![After](https://github.com/duyngoc-adn/RECOMMENDATION-SYSTEM-FOR-E-COMMERCE-PLATFORM-INTEGRATING-PRODUCT-TITLE-DESCRIPTION-AND-IMAGE/assets/73750674/c8d9c483-8a38-4266-937d-2911de4348dd)
 
+We have built a product recommendation system based on encoding vectors of 3 features: title, description, and image. The image embedding models include ConvNeXT-small and ResNet50, while the text embedding methods include TF-IDF and mBERT. The highest performance of the system reached 52.79% when applying weights to the 3 features and summarizing the description using the ConvNeXT-small method combined with TF-IDF. Through experiments, we made several observations: (1) Product recommendation method combining title, description, and image performs better than each independent feature. (2) Title has the most significant impact, followed by description, with image having the least influence when recommending products using the combined 3 features method. (3) Applying weights to the features leads to better performance than without applying weights. (4) Performance when using ConvNeXT-small for image embedding is superior compared to ResNet50. (5) The TF-IDF method achieves better performance than using mBERT to encode text without fine-tuning for a similar semantic text problem. (6) Recommendation performance when only using unsupervised description is better than using Gemini-Pro for summarization.
+
 ## Contact
 ### Authors:
 Ngoc Dinh Duy Cao, Tinh Pham Phuc Do, Nguyen Dinh Van, Tin Van Huynh
