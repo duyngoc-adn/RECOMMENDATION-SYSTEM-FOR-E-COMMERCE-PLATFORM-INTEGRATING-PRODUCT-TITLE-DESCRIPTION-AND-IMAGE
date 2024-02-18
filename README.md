@@ -1,4 +1,5 @@
-# RECOMMENDATION-SYSTEM-FOR-E-COMMERCE-PLATFORM-INTEGRATING-PRODUCT-TITLE-DESCRIPTION-AND-IMAGE
+# RECOMMENDATION SYSTEM FOR E-COMMERCE PLATFORM INTEGRATING PRODUCT TITLE, DESCRIPTION AND IMAGE
+
 ## Introduction
  In this problem, we introduce a recommendation system consisting of two main components: retrieval and re-ranking. The recommendation system is based on three criteria: product title, product description, and product image. Our system leverages these criteria to improve the accuracy of product recommendations. Using precision at K (P@K) as the evaluation criterion, we attempt to determine the optimal weight configuration for each criterion. The goal is to identify and meet the needs of users to explore related products on the e-commerce platform. Additionally, we also compare the results with using a large language model to summarize the product description, condensing the main content. The results we achieved demonstrate the positive performance of the method in improving the accuracy of the recommendation system. 
 
